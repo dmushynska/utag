@@ -1,0 +1,12 @@
+prefix=/Users/dmushynska/.brew
+exec_prefix=/Users/dmushynska/.brew
+libdir=/Users/dmushynska/.brew/lib
+includedir=/Users/dmushynska/.brew/include
+
+
+Name: TagLib C Bindings
+Description: Audio meta-data library (C bindings)
+Requires: taglib
+Version: 1.11.1
+Libs: -L/Users/dmushynska/.brew/lib -ltag_c
+Cflags: -I/Users/dmushynska/.brew/include/taglib 
